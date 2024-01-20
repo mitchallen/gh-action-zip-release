@@ -3,16 +3,18 @@ gh-action-zip-release
 
 An example of how to:
 
-* zip a folder
-* publish it as a release package on GitHub
+* zip a folder via github actions
+* push it as a vtag (see below)
+* this will publish it as a release on GitHub
 
 
-## Manual Tag
+## Push Tag
 
 
 ```sh
 git checkout main
-git tag v1.0.0
+git tag 
+git tag v1.0.2  
 git push origin --tags
 ```
 
