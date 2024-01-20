@@ -5,9 +5,9 @@ env:
     TARGET_ZIP: source.zip
 
 on:
-  push:
-    branches: [ main ]
-  workflow_dispatch:
+    push:
+        tags:
+        - 'v*'
 
 jobs:
     build:
